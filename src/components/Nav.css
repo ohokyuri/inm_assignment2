@@ -8,11 +8,18 @@ nav {
 }
 
 nav a {
-    color: #4adeb6;
+    border-style: dotted;
+    border-radius: 15px 30px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #95ffe2;
     text-decoration: none;
     margin: 0 10px;
+    padding: 10px;
 }
 
 nav a:hover {
     text-decoration: underline;
+    background-color: white;
+    color:#0b657d;
 }

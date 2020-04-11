@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './Author.css';
+import './About.css';
 
-function Author() {
+function About() {
   return (
     <div className="Page">
-      <header className="Page-header">
-        <img src={logo} className="Page-logo" alt="logo" />
-        <p>
-          Author
-        </p>
-        <a
-          className="Page-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className="About">
+        <h1>Hello I'm Yu Ri :)</h1>
+        <p>I want to become a well-rounded graphic designer! I hope to enhance every design that I cross paths with and that each
+piece comes to life as I do what I love.</p>
+      </main>
     </div>
   );
 }
 
-export default Author;
+export default About;

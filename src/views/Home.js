@@ -8,7 +8,7 @@ function Home() {
       <header className="Page-header">
         <img src={logo} className="Page-logo" alt="logo" />
         <p>
-          Home
+          Visit React website to learn more about React~!
         </p>
         <a
           className="Page-link"
