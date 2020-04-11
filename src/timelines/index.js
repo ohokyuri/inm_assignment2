@@ -4,7 +4,7 @@ export const play = (pathname, node, appears) => {
     const timeline = gsap.timeline();
 
     // Page
-    timeline.to(node, { duration: 1, opacity: 1, x: 10, ease: 'power4.Out' });
+    timeline.to(node, { duration: 2, opacity: 1, x: 0, scale: 1.3, delay: 0.5, stagger: 0.2, ease: 'power4.Out', force3D: true });
 
     // About elements
     const about = node.querySelector('.About');
@@ -17,5 +17,5 @@ export const play = (pathname, node, appears) => {
 export const exit = (node) => {
     const timeline = gsap.timeline();
 
-    timeline.to(node, { duration: 0.5, y: '50%', scale: 0, ease: 'power2.inOut' });
+    timeline.to(node, { duration: 0.5, y: 10, scale: 0, ease: 'power2.inOut' });
 }
